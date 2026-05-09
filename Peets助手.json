@@ -2,13 +2,13 @@
   "id": "peets",
   "name": "Peet's Coffee",
   "author": "Areskyo",
-  "icon": "https://raw.githubusercontent.com/areskyo/Scripts/refs/heads/main/Peets/Peet's%20Coffee.webp?token=GHSAT0AAAAAAD27MGLI2AHPRCUDAO5MUG3O2PPSU3A",
+  "icon": "https://raw.githubusercontent.com/areskyo/Script/refs/heads/master/Peets.png",
   "apps": [
     {
       "id": "peets_coupon",
       "name": "Peet's 抢券助手",
       "icons": [
-        "https://raw.githubusercontent.com/areskyo/Scripts/refs/heads/main/Peets/Peet's%20Coffee.webp?token=GHSAT0AAAAAAD27MGLI2AHPRCUDAO5MUG3O2PPSU3A"
+        "https://raw.githubusercontent.com/areskyo/Script/refs/heads/master/Peets.png"
       ],
       "settings": [
         {
