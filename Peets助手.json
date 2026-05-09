@@ -33,6 +33,13 @@
           "desc": "自动抓取或手动填写"
         },
         {
+          "id": "Peets_Tuesday_ProjectId",
+          "name": "周二 ProjectId",
+          "type": "text",
+          "val": "",
+          "desc": "自动抓取或手动填写"
+        },
+        {
           "id": "Peets_Accounts_JSON",
           "name": "账号数据 JSON",
           "type": "textarea",
