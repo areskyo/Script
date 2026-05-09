@@ -1,0 +1,73 @@
+{
+  "id": "peets",
+  "name": "Peet's Coffee",
+  "author": "Areskyo",
+  "icon": "https://raw.githubusercontent.com/areskyo/Scripts/refs/heads/main/Peets/Peet's%20Coffee.webp?token=GHSAT0AAAAAAD27MGLI2AHPRCUDAO5MUG3O2PPSU3A",
+  "apps": [
+    {
+      "id": "peets_coupon",
+      "name": "Peet's 抢券助手",
+      "icons": [
+        "https://raw.githubusercontent.com/areskyo/Scripts/refs/heads/main/Peets/Peet's%20Coffee.webp?token=GHSAT0AAAAAAD27MGLI2AHPRCUDAO5MUG3O2PPSU3A"
+      ],
+      "settings": [
+        {
+          "id": "Peets_Enable",
+          "name": "启用抢券",
+          "type": "boolean",
+          "val": true,
+          "desc": "总开关"
+        },
+        {
+          "id": "Peets_Debug",
+          "name": "Debug 模式",
+          "type": "number",
+          "val": 0,
+          "desc": "0=关闭，1=开启（立即执行+打印每次请求）"
+        },
+        {
+          "id": "Peets_Monday_ProjectId",
+          "name": "周一 ProjectId",
+          "type": "text",
+          "val": "",
+          "desc": "自动抓取或手动填写"
+        },
+        {
+          "id": "Peets_Accounts_JSON",
+          "name": "账号数据 JSON",
+          "type": "textarea",
+          "val": "",
+          "desc": "[{\"name\":\"xxx\",\"memberId\":\"xxx\",\"auth\":\"xxx\",\"updateTime\":\"xxx\"}]"
+        },
+        {
+          "id": "Peets_Global_Max_Concurrent",
+          "name": "全局并发数",
+          "type": "number",
+          "val": 3,
+          "desc": "建议 2~5"
+        },
+        {
+          "id": "Peets_Per_Account_Delay",
+          "name": "单账号间隔(ms)",
+          "type": "number",
+          "val": 80,
+          "desc": "避免限流"
+        },
+        {
+          "id": "Peets_Jitter",
+          "name": "请求抖动(ms)",
+          "type": "number",
+          "val": 40,
+          "desc": "随机延迟"
+        },
+        {
+          "id": "Peets_Duration",
+          "name": "抢券持续时间(ms)",
+          "type": "number",
+          "val": 5000,
+          "desc": "3000~8000"
+        }
+      ]
+    }
+  ]
+}
